@@ -1,0 +1,2 @@
+module gui_imagem {
+}
