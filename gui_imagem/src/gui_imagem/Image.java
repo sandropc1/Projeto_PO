@@ -13,7 +13,7 @@ public class Image extends JFrame{
 	public Image(String nome) {
 	
 		frame = new JFrame("Teste de daltonismo");
-		frame.setDefaultCloseOperation(1);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		try {
 			imagem = new ImageIcon(getClass().getResource(nome));
